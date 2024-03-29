@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.SignUp{
+  width:500px;
+  border : 1px solid black;
+  margin: auto;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:5px;
+  padding:5px 0 5px 15px
+}
+form > input{
+  width:400px;
+  height:25px
+}
+form > label{
+  font-weight: 700;
+}
+.mt50{
+  margin-top: 50px;
+}
+.body > img{
+ width:100vw;
+ height:90vh
+}
+.nav{
+  background-color: aquamarine;
+  height:10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  gap:25px;
+  align-items: center;
+  padding-right: 50px;
+}
+.nav img{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+.loginuser{
+  width:500px;
+  border : 1px solid black;
+  margin: auto;
+
+}
+form span{
+  color:red
+}
+.profile{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:5px;
+  padding:5px 0 5px 15px
+}
+.modal{
+  width:300px;
+  height:30px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  margin:10px auto
+}
